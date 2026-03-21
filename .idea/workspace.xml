@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1569536-e190-42c7-9638-85434c729f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Mang/XoaPhanTuKhoiMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mang/ThemPhanTuVaoMang.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +38,7 @@
     "Application.HienThiHinh.executor": "Run",
     "Application.HienThiLoiChao.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.ThemPhanTuVaoMang.executor": "Run",
     "Application.UngDungChuyenDoiTIenTe.executor": "Run",
     "Application.UngDungDocSoThanhChu.executor": "Run",
     "Application.XoaPhanTuKhoiMang.executor": "Run",
@@ -53,7 +54,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.XoaPhanTuKhoiMang">
+  <component name="RunManager" selected="Application.ThemPhanTuVaoMang">
     <configuration name="HienThi20SoNGuyenToDauTien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Loop.HienThi20SoNGuyenToDauTien" />
       <module name="Module_2" />
@@ -93,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UngDungChuyenDoiTIenTe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss1_introduction_to_Java.UngDungChuyenDoiTIenTe" />
+    <configuration name="ThemPhanTuVaoMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mang.ThemPhanTuVaoMang" />
       <module name="Module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss1_introduction_to_Java.*" />
+          <option name="PATTERN" value="Mang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThemPhanTuVaoMang" />
         <item itemvalue="Application.XoaPhanTuKhoiMang" />
         <item itemvalue="Application.HienThiCacSoNguyenToNhoHon100" />
         <item itemvalue="Application.HienThi20SoNGuyenToDauTien" />
         <item itemvalue="Application.HienThiHinh" />
-        <item itemvalue="Application.UngDungChuyenDoiTIenTe" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +147,7 @@
       <updated>1773923305594</updated>
       <workItem from="1773923306304" duration="2743000" />
       <workItem from="1774088975682" duration="141000" />
-      <workItem from="1774089148001" duration="6851000" />
+      <workItem from="1774089148001" duration="8775000" />
     </task>
     <servers />
   </component>
