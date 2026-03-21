@@ -18,8 +18,8 @@ public class UngDungDocSoThanhChu {
 
 
 public static String readNumber(int n) {
-    if (n < 10) return readOnes(n); // Bước 2
-    if (n < 20) return readTeens(n); // Bước 3
+    if (n < 10) return readOnes(n);
+    if (n < 20) return readTeens(n);
     if (n < 100) { // Bước 4
         int tens = n / 10;
         int ones = n % 10;
