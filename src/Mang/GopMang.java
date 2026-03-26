@@ -22,7 +22,7 @@ public class GopMang {
         int[] newArr=new int[10];
         merge(arr1,arr2,newArr);
         display(newArr,3);
-
+        System.out.println("Success!!!");
     }
 
     public static int[] add(int[] arr){
