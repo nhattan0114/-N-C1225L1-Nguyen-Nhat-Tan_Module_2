@@ -41,7 +41,7 @@ public class TinhTongDgCheoChinh {
         for (int i = 0; i < arr.length ; i++) {
             for (int j = 0; j < arr.length; j++) {
                 if(i==j){
-                    sum+=arr[i][j];
+                    sum+=arr[i][i];
                 }
             }
         }
