@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1569536-e190-42c7-9638-85434c729f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Method/TinhTongDgCheoChinh.java" afterDir="false" />
-    </list>
+    <list default="true" id="b1569536-e190-42c7-9638-85434c729f54" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +39,7 @@
     "Application.ThemPhanTuVaoMang.executor": "Run",
     "Application.TimMaxTrongMang2Chieu.executor": "Run",
     "Application.TimMinTrongMang.executor": "Run",
+    "Application.TinhTongDgCheoChinh.executor": "Run",
     "Application.TongCacSoOMotCotXacDinh.executor": "Run",
     "Application.UngDungChuyenDoiTIenTe.executor": "Run",
     "Application.UngDungDocSoThanhChu.executor": "Run",
@@ -152,7 +151,7 @@
       <workItem from="1774088975682" duration="141000" />
       <workItem from="1774089148001" duration="9117000" />
       <workItem from="1774528776524" duration="5107000" />
-      <workItem from="1774697408612" duration="1524000" />
+      <workItem from="1774697408612" duration="1823000" />
     </task>
     <servers />
   </component>
