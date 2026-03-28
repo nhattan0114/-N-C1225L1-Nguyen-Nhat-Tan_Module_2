@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1569536-e190-42c7-9638-85434c729f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Mang/TimMinTrongMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Method/TongCacSoOMotCotXacDinh.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +42,7 @@
     "Application.ThemPhanTuVaoMang.executor": "Run",
     "Application.TimMaxTrongMang2Chieu.executor": "Run",
     "Application.TimMinTrongMang.executor": "Run",
+    "Application.TongCacSoOMotCotXacDinh.executor": "Run",
     "Application.UngDungChuyenDoiTIenTe.executor": "Run",
     "Application.UngDungDocSoThanhChu.executor": "Run",
     "Application.XoaPhanTuKhoiMang.executor": "Run",
@@ -57,7 +58,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TimMinTrongMang">
+  <component name="RunManager" selected="Application.TongCacSoOMotCotXacDinh">
     <configuration name="GopMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Mang.GopMang" />
       <module name="Module_2" />
@@ -110,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XoaPhanTuKhoiMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mang.XoaPhanTuKhoiMang" />
+    <configuration name="TongCacSoOMotCotXacDinh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Method.TongCacSoOMotCotXacDinh" />
       <module name="Module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mang.*" />
+          <option name="PATTERN" value="Method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TongCacSoOMotCotXacDinh" />
         <item itemvalue="Application.TimMinTrongMang" />
         <item itemvalue="Application.TimMaxTrongMang2Chieu" />
         <item itemvalue="Application.GopMang" />
         <item itemvalue="Application.ThemPhanTuVaoMang" />
-        <item itemvalue="Application.XoaPhanTuKhoiMang" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +152,8 @@
       <workItem from="1773923306304" duration="2743000" />
       <workItem from="1774088975682" duration="141000" />
       <workItem from="1774089148001" duration="9117000" />
-      <workItem from="1774528776524" duration="5083000" />
+      <workItem from="1774528776524" duration="5107000" />
+      <workItem from="1774697408612" duration="1153000" />
     </task>
     <servers />
   </component>
