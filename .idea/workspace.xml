@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1569536-e190-42c7-9638-85434c729f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AccessModifier/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AccessModifier/TestCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AccessModifier/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AccessModifier/TestStudent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,37 +31,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.DemSoLanXuatHien.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GopMang.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HienThi20SoNGuyenToDauTien.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HienThiCacSoNguyenToNhoHon100.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HienThiHinh.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HienThiLoiChao.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainFan.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThemPhanTuVaoMang.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TimMaxTrongMang2Chieu.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TimMinTrongMang.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TinhTongDgCheoChinh.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TongCacSoOMotCotXacDinh.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UngDungChuyenDoiTIenTe.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UngDungDocSoThanhChu.executor&quot;: &quot;Run&quot;,
-    &quot;Application.XoaPhanTuKhoiMang.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/CodeGym/Module_2/Module_2/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DemSoLanXuatHien.executor": "Run",
+    "Application.GopMang.executor": "Run",
+    "Application.HienThi20SoNGuyenToDauTien.executor": "Run",
+    "Application.HienThiCacSoNguyenToNhoHon100.executor": "Run",
+    "Application.HienThiHinh.executor": "Run",
+    "Application.HienThiLoiChao.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainFan.executor": "Run",
+    "Application.TestCircle.executor": "Run",
+    "Application.TestStudent.executor": "Run",
+    "Application.ThemPhanTuVaoMang.executor": "Run",
+    "Application.TimMaxTrongMang2Chieu.executor": "Run",
+    "Application.TimMinTrongMang.executor": "Run",
+    "Application.TinhTongDgCheoChinh.executor": "Run",
+    "Application.TongCacSoOMotCotXacDinh.executor": "Run",
+    "Application.UngDungChuyenDoiTIenTe.executor": "Run",
+    "Application.UngDungDocSoThanhChu.executor": "Run",
+    "Application.XoaPhanTuKhoiMang.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/CodeGym/Module_2/Module_2/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.TestCircle">
+}]]></component>
+  <component name="RunManager" selected="Application.TestStudent">
     <configuration name="DemSoLanXuatHien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Method.DemSoLanXuatHien" />
       <module name="Module_2" />
@@ -115,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TinhTongDgCheoChinh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Method.TinhTongDgCheoChinh" />
+    <configuration name="TestStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AccessModifier.TestStudent" />
       <module name="Module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Method.*" />
+          <option name="PATTERN" value="AccessModifier.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestStudent" />
         <item itemvalue="Application.TestCircle" />
         <item itemvalue="Application.MainFan" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.DemSoLanXuatHien" />
-        <item itemvalue="Application.TinhTongDgCheoChinh" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +161,7 @@
       <workItem from="1774697408612" duration="4404000" />
       <workItem from="1774855466606" duration="56000" />
       <workItem from="1774944660966" duration="2542000" />
-      <workItem from="1775549029051" duration="662000" />
+      <workItem from="1775549029051" duration="1133000" />
     </task>
     <servers />
   </component>
