@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1569536-e190-42c7-9638-85434c729f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/TestCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/Point3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/TestPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,26 +66,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Inheritance.TestCircle">
+  <component name="RunManager" selected="Application.TestPoint">
     <configuration name="Inheritance.TestCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Inheritance.TestCircle" />
       <module name="Module_2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class_and_Object.Main" />
-      <module name="Module_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class_and_Object.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,6 +106,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inheritance.TestPoint" />
+      <module name="Module_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AccessModifier.TestStudent" />
       <module name="Module_2" />
@@ -134,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestPoint" />
         <item itemvalue="Application.Inheritance.TestCircle" />
         <item itemvalue="Application.TestStudent" />
         <item itemvalue="Application.TestCircle" />
         <item itemvalue="Application.MainFan" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +164,7 @@
       <workItem from="1774697408612" duration="4404000" />
       <workItem from="1774855466606" duration="56000" />
       <workItem from="1774944660966" duration="2542000" />
-      <workItem from="1775549029051" duration="2120000" />
+      <workItem from="1775549029051" duration="3022000" />
     </task>
     <servers />
   </component>
