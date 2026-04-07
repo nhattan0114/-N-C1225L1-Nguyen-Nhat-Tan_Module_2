@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1569536-e190-42c7-9638-85434c729f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AccessModifier/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AccessModifier/TestStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/TestCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +41,7 @@
     "Application.HienThiCacSoNguyenToNhoHon100.executor": "Run",
     "Application.HienThiHinh.executor": "Run",
     "Application.HienThiLoiChao.executor": "Run",
+    "Application.Inheritance.TestCircle.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainFan.executor": "Run",
     "Application.TestCircle.executor": "Run",
@@ -63,13 +66,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestStudent">
-    <configuration name="DemSoLanXuatHien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Method.DemSoLanXuatHien" />
+  <component name="RunManager" selected="Application.Inheritance.TestCircle">
+    <configuration name="Inheritance.TestCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inheritance.TestCircle" />
       <module name="Module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Method.*" />
+          <option name="PATTERN" value="Inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Inheritance.TestCircle" />
         <item itemvalue="Application.TestStudent" />
         <item itemvalue="Application.TestCircle" />
         <item itemvalue="Application.MainFan" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.DemSoLanXuatHien" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +164,7 @@
       <workItem from="1774697408612" duration="4404000" />
       <workItem from="1774855466606" duration="56000" />
       <workItem from="1774944660966" duration="2542000" />
-      <workItem from="1775549029051" duration="1133000" />
+      <workItem from="1775549029051" duration="2120000" />
     </task>
     <servers />
   </component>
