@@ -6,6 +6,10 @@ import java.util.ArrayList;
 
 public interface ICustomerService {
     ArrayList<Customer> showList();
-    void deleteCustomer();
-    Customer findCustomerByName();
+
+
+    boolean deleteCustomer(String target);
+
+    ArrayList<Customer> findCustomerByName(String name);
+    void addCustomer(Customer customer);
 }

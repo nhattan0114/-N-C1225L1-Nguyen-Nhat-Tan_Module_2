@@ -11,11 +11,16 @@ public class CustomerController {
     public ArrayList<Customer> getList(){
         return customerService.showList();
     }
-    public void deleteCustomer(){
 
+    public boolean deleteCustomer(String target){
+       return customerService.deleteCustomer(target);
     }
 
-    public Customer findCustomerByName(){
-        return null;
+    public void addCustomer(Customer customer){
+        customerService.addCustomer(customer);
+    }
+
+    public ArrayList<Customer> findCustomerByName(String name){
+        return customerService.findCustomerByName(name);
     }
 }

@@ -6,7 +6,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class CustomerRepository {
-    private static ArrayList<Customer> CustomerList = new ArrayList<>() ;
+    private static final ArrayList<Customer> CustomerList = new ArrayList<>() ;
 
     static {
         CustomerList.add(new Customer("DN", LocalDate.now(),"Nguyen Nhat Tan","KH101"));
@@ -18,12 +18,33 @@ public class CustomerRepository {
         return CustomerList;
     }
 
-    public void deleteCustomer(){
-
+    public boolean deleteCustomer(String target){
+        for (Customer cus: CustomerList){
+            if(target.equalsIgnoreCase(cus.getId())){
+                CustomerList.remove(cus);
+                return true;
+            }
+        }
+        return false;
     }
 
-    public Customer findCustomerByName(){
-        return  null;
+    public void addCustomer(Customer customer){
+        CustomerList.add(customer);
+    }
+
+    public ArrayList<Customer> findCustomerByName(String name){
+        ArrayList<Customer> result = new ArrayList<>();
+
+        if (name == null || name.trim().isEmpty()) {
+            return result;
+        }
+
+        for (Customer cus :CustomerList){
+            if (cus.getName()!=null &&cus.getName().toLowerCase().contains(name.toLowerCase())){
+                result.add(cus);
+            }
+        }
+        return result;
     }
 
 }

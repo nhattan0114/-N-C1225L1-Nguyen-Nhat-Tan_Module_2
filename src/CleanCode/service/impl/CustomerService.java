@@ -13,13 +13,21 @@ public class CustomerService implements ICustomerService {
         return customerRepository.ShowList();
     }
 
+
     @Override
-    public void deleteCustomer() {
+    public boolean deleteCustomer(String target) {
+        return customerRepository.deleteCustomer(target);
 
     }
 
     @Override
-    public Customer findCustomerByName() {
-        return null;
+    public ArrayList<Customer> findCustomerByName(String name) {
+        return customerRepository.findCustomerByName(name);
+    }
+
+    @Override
+    public void addCustomer(Customer customer) {
+        customerRepository.addCustomer(customer);
+
     }
 }
