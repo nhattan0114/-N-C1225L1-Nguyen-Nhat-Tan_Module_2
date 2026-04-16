@@ -16,7 +16,7 @@ public class CustomerView {
 
     public  void mainMenuKhachSan(){
         while (true){
-            System.out.println("\n-----Menu quản lí-----");
+            System.out.println("\n-----Menu quản lí Khách sạn-----");
             System.out.println("1.Danh sách khách hàng của khách sạn.");
             System.out.println("2.Thêm mới khách hàng.");
             System.out.println("3.Xóa khách hàng.");
@@ -74,8 +74,8 @@ public class CustomerView {
     }
     public  void mainMenuNhaHang(){
         while (true){
-            System.out.println("\n-----Menu quản lí-----");
-            System.out.println("1.Danh sách khách hàng của khách sạn.");
+            System.out.println("\n-----Menu quản lí nhà hàng-----");
+            System.out.println("1.Danh sách khách hàng của nhà hàng. ");
             System.out.println("2.Thêm mới khách hàng.");
             System.out.println("3.Xóa khách hàng.");
             System.out.println("4.Tìm kiếm theo tên.");
@@ -132,8 +132,8 @@ public class CustomerView {
     }
     public  void mainMenuThuVien(){
         while (true){
-            System.out.println("\n-----Menu quản lí-----");
-            System.out.println("1.Danh sách khách hàng của khách sạn.");
+            System.out.println("\n-----Menu quản lí thư viện-----");
+            System.out.println("1.Danh sách khách hàng của thư viện.");
             System.out.println("2.Thêm mới khách hàng.");
             System.out.println("3.Xóa khách hàng.");
             System.out.println("4.Tìm kiếm theo tên.");

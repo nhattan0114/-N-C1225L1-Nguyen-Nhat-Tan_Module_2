@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1569536-e190-42c7-9638-85434c729f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DSA/myList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/myListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA_Stack_Queue/Reverse_Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CleanCode/view/CustomerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CleanCode/view/CustomerView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="56" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -22,6 +27,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -47,6 +56,7 @@
     "Application.Main.executor": "Run",
     "Application.MainFan.executor": "Run",
     "Application.MainResize.executor": "Run",
+    "Application.Reverse_Stack.executor": "Run",
     "Application.TestCircle.executor": "Run",
     "Application.TestPoint.executor": "Run",
     "Application.TestStudent.executor": "Run",
@@ -60,18 +70,23 @@
     "Application.XoaPhanTuKhoiMang.executor": "Run",
     "Application.myListTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/CodeGym/Module_2/Module_2/src/Main.java",
+    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
+    "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.myListTest">
+  <component name="RunManager" selected="Application.Reverse_Stack">
     <configuration name="CleanCode.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CleanCode.Main" />
       <module name="Module_2" />
@@ -111,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inheritance.TestPoint" />
+    <configuration name="Reverse_Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA_Stack_Queue.Reverse_Stack" />
       <module name="Module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Inheritance.*" />
+          <option name="PATTERN" value="DSA_Stack_Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.myListTest" />
+        <item itemvalue="Application.Reverse_Stack" />
         <item itemvalue="Application.CleanCode.Main" />
+        <item itemvalue="Application.myListTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainResize" />
-        <item itemvalue="Application.TestPoint" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +187,10 @@
       <workItem from="1775549029051" duration="4660000" />
       <workItem from="1775727144305" duration="5544000" />
       <workItem from="1775848272156" duration="5558000" />
-      <workItem from="1775907109370" duration="1441000" />
+      <workItem from="1775907109370" duration="3805000" />
+      <workItem from="1776167129777" duration="198000" />
+      <workItem from="1776167428639" duration="1486000" />
+      <workItem from="1776330119847" duration="3346000" />
     </task>
     <servers />
   </component>
@@ -187,7 +205,15 @@
           <line>11</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
