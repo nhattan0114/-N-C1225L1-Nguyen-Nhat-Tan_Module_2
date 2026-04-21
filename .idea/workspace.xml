@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b1569536-e190-42c7-9638-85434c729f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DSA_Stack_Queue/Reverse_Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSA_Stack_Queue/CountWord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CleanCode/view/CustomerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CleanCode/view/CustomerView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CleanCode.Main.executor": "Run",
+    "Application.CountWord.executor": "Run",
     "Application.DemSoLanXuatHien.executor": "Run",
     "Application.GopMang.executor": "Run",
     "Application.HienThi20SoNGuyenToDauTien.executor": "Run",
@@ -79,6 +81,10 @@
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/CodeGym/Module_2/Module_2/src/Main.java",
     "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
@@ -86,7 +92,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Reverse_Stack">
+  <component name="RunManager" selected="Application.CountWord">
     <configuration name="CleanCode.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CleanCode.Main" />
       <module name="Module_2" />
@@ -100,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AbstractClass_Interface.Colorable.Main" />
+    <configuration name="CountWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DSA_Stack_Queue.CountWord" />
       <module name="Module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AbstractClass_Interface.Colorable.*" />
+          <option name="PATTERN" value="DSA_Stack_Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainResize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AbstractClass_Interface.MainResize" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AbstractClass_Interface.Colorable.Main" />
       <module name="Module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AbstractClass_Interface.*" />
+          <option name="PATTERN" value="AbstractClass_Interface.Colorable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountWord" />
         <item itemvalue="Application.Reverse_Stack" />
         <item itemvalue="Application.CleanCode.Main" />
         <item itemvalue="Application.myListTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MainResize" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +196,9 @@
       <workItem from="1775907109370" duration="3805000" />
       <workItem from="1776167129777" duration="198000" />
       <workItem from="1776167428639" duration="1486000" />
-      <workItem from="1776330119847" duration="3346000" />
+      <workItem from="1776330119847" duration="3540000" />
+      <workItem from="1776342295087" duration="1740000" />
+      <workItem from="1776758553261" duration="1170000" />
     </task>
     <servers />
   </component>
