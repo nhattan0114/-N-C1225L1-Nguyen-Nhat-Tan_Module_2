@@ -1,8 +1,11 @@
 package javacollection.repository;
 
+import CleanCode.compare.compareProductID;
+import CleanCode.compare.compareProductPrice;
 import javacollection.entity.Product;
 
 import java.util.ArrayList;
+import java.util.List;
 
 
 public class ProductRepository {
@@ -39,10 +42,25 @@ public class ProductRepository {
     }
 
 
-    public void searchProduct(){}
+    public List<Product> searchProduct(String name){
+        List<Product> result = new ArrayList<>();
+        for(Product p : productList){
+            if(p.getProductName().toLowerCase().contains(name.toLowerCase())){
+                result.add(p);
+            }
+        }
+        return result;
+    }
 
-    public Product findByID(String productID){
-        return null;
+    public void sortPriceAsc(){
+        productList.sort(new compareProductPrice());
+    }
+    public void sortPriceDesc(){
+        productList.sort(new compareProductPrice().reversed());
+    }
+
+    public void sortProductID(){
+        productList.sort(new compareProductID());
     }
 
 }

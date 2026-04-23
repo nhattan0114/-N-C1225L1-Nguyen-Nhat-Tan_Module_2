@@ -18,8 +18,10 @@ public class ProductView {
             System.out.println("3.Cập nhật sản phẩm");
             System.out.println("4.Hiển thị sản phẩm");
             System.out.println("5.Tìm sản phẩm.");
-            System.out.println("6.Sắp xếp sản phẩm");
-            System.out.println("7.Thoát.");
+            System.out.println("6.Sắp xếp sản phẩm theo giá.");
+            System.out.println("7.Sắp xếp sản phẩm theo ID.");
+            System.out.println("8.Thoát.");
+            System.out.print("Lựa chọn: ");
             int choice = Integer.parseInt(sc.nextLine());
             switch (choice){
                 case 1:
@@ -67,30 +69,58 @@ public class ProductView {
                     break;
                 case 4:
                     List<Product> result= productController.getProductList();
-                    if (result.isEmpty()){
-                        System.out.println("Danh sách sản phẩm rỗng ");
-                        break;
-                    }
-                    System.out.println("+----+----------------------+------------+");
-                    System.out.printf("| %-2s | %-20s | %-10s |\n",
-                            "ID", "Tên sản phẩm", "Giá");
-                    System.out.println("+----+----------------------+------------+");
-
-                    for (Product p:result){
-                        System.out.println(p);
-                    }
-                    System.out.println("+----+----------------------+------------+");
+                    displayProduct(result);
                     break;
                 case 5:
-                    productController.searchProduct();
+                    System.out.print("Nhập tên sản phẩm muốn tìm: ");
+                    String name_search =sc.nextLine();
+                    List<Product> ketqua=productController.searchProduct(name_search);
+                    displayProduct(ketqua);
                     break;
                 case 6:
-                    productController.sortProduct();
+                    boolean isContinue=true;
+                    while(isContinue){
+                        System.out.print("Xếp sắp tăng dần/giảm dần(T/G): ");
+                        String option =sc.nextLine();
+                        switch (option.toLowerCase()){
+                            case "t":
+                                productController.sortProductPriceAsc();
+                                displayProduct(productController.getProductList());
+                                isContinue=false;
+                                break;
+                            case "g":
+                                productController.sortProductPriceDesc();
+                                displayProduct(productController.getProductList());
+                                isContinue=false;
+                                break;
+                            default:
+                                System.out.println("Thử lại!");
+                        }
+                    }
                     break;
-                case 7:return;
+                case 7:
+                    productController.sortProductID();
+                    displayProduct(productController.getProductList());
+                    break;
+                case 8:return;
                 default:System.out.println("Invalid choice,try again!");
             }
         }
+    }
+
+    public static void displayProduct(List<Product> products) {
+        if (products.isEmpty()){
+            System.out.println("Không tồn tại");
+            return;
+        }
+        System.out.println("+----+----------------------+------------+");
+        System.out.printf("| %-2s | %-20s | %-10s |\n",
+                "ID", "Tên sản phẩm", "Giá");
+        System.out.println("+----+----------------------+------------+");
+        for (Product product : products){
+            System.out.println(product);
+        }
+        System.out.println("+----+----------------------+------------+");
     }
 
 }

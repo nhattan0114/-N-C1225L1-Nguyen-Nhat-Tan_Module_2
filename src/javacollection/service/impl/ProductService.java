@@ -67,17 +67,32 @@ public class ProductService implements IProductService {
     }
 
     @Override
-    public void searchProduct() {
-
-    }
-
-    @Override
-    public void sortProduct() {
-
-    }
-
-    @Override
-    public Product findByID(String productID) {
+    public List<Product> searchProduct(String name) {
+        ArrayList<Product> products = productRepository.getProductList();
+        if(name==null|| name.trim().isEmpty()){
+            return null;
+        }
+        for (Product p : products){
+            if(p.getProductName().toLowerCase().contains(name.toLowerCase())){
+                return productRepository.searchProduct(name);
+            }
+        }
         return null;
     }
+
+    @Override
+    public void sortProductPriceAsc() {
+        productRepository.sortPriceAsc();
+    }
+
+    @Override
+    public void sortProductPriceDesc() {
+        productRepository.sortPriceDesc();
+    }
+
+    @Override
+    public  void sortProductID(){
+
+    }
+
 }

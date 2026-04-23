@@ -29,16 +29,20 @@ public class ProductController {
     }
 
 
-    public void searchProduct(){
-        productService.searchProduct();
+    public List<Product> searchProduct(String name){
+       return productService.searchProduct(name);
     }
 
 
-    public void sortProduct(){
-        productService.sortProduct();
+    public void sortProductPriceAsc(){
+        productService.sortProductPriceAsc();
+
+    }
+    public void sortProductPriceDesc(){
+        productService.sortProductPriceDesc();
+    }
+    public void sortProductID(){
+        productService.sortProductID();
     }
 
-    public Product getID(String id){
-        return productService.findByID(id);
-    }
 }

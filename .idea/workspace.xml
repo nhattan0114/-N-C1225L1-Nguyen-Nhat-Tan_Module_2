@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1569536-e190-42c7-9638-85434c729f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/javacollection/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javacollection/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javacollection/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javacollection/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javacollection/service/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javacollection/service/impl/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javacollection/view/ProductView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CleanCode/compare/compareProductID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CleanCode/compare/compareProductPrice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSA_Stack_Queue/CheckThePalindromeStringUsingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA_Stack_Queue/CheckThePalindromeStringUsingQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javacollection/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javacollection/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javacollection/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javacollection/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javacollection/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javacollection/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javacollection/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javacollection/service/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javacollection/service/impl/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javacollection/service/impl/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javacollection/view/ProductView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javacollection/view/ProductView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +209,7 @@
       <workItem from="1776758553261" duration="3500000" />
       <workItem from="1776770684744" duration="7712000" />
       <workItem from="1776801024899" duration="3716000" />
-      <workItem from="1776938627172" duration="2803000" />
+      <workItem from="1776938627172" duration="7509000" />
     </task>
     <servers />
   </component>

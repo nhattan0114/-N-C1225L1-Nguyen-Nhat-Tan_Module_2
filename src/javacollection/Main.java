@@ -13,6 +13,7 @@ public class Main {
             System.out.println("1.Chạy chương trình.");
             System.out.println("2.Thoát");
             System.out.println("------------------------------------------");
+            System.out.print("Lựa chọn: ");
             int choice = Integer.parseInt(sc.nextLine());
             switch (choice) {
                 case 1: productView.run();
