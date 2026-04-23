@@ -18,7 +18,7 @@ public class CheckThePalindromeStringUsingQueue {
         }
         boolean isPalindrome=true;
         while (!stack.isEmpty() && !queue.isEmpty()){
-            if (!stack.pop().equals(queue.poll())){
+            if (!stack.pop().equals(queue.poll())){//poll():lay tu dau xuong
                 isPalindrome=false;
                 break;
             }

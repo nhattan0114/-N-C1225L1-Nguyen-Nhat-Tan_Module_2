@@ -1,0 +1,96 @@
+package javacollection.view;
+
+import javacollection.controller.ProductController;
+import javacollection.entity.Product;
+
+import java.util.List;
+import java.util.Scanner;
+
+public class ProductView {
+    ProductController productController = new ProductController();
+    public static Scanner sc = new Scanner(System.in);
+    public void run(){
+        while (true){
+            System.out.println("-------------------WELCOME-----------------");
+            System.out.println("---------Ứng dụng quản lí sản phẩm--------- ");
+            System.out.println("1.Thêm sản phẩm.");
+            System.out.println("2.Xóa sản phẩm.");
+            System.out.println("3.Cập nhật sản phẩm");
+            System.out.println("4.Hiển thị sản phẩm");
+            System.out.println("5.Tìm sản phẩm.");
+            System.out.println("6.Sắp xếp sản phẩm");
+            System.out.println("7.Thoát.");
+            int choice = Integer.parseInt(sc.nextLine());
+            switch (choice){
+                case 1:
+                    System.out.print("Nhập tên sản phẩm: ");
+                    String name =sc.nextLine();
+                    System.out.print("Nhập ID sản phẩm: ");
+                    String id =sc.nextLine();
+                    System.out.print("Nhập giá sản phẩm: ");
+                    double price =Double.parseDouble(sc.nextLine());
+                    boolean isAdd=productController.addProduct(new Product(price,id,name));
+                    if (isAdd){
+                        System.out.println("\nThêm mới thành công!");
+                    }else{
+                        System.out.println("\nThêm mới thất bại,vui lòng thử lại!(sản phẩm không được để trống,ID không được trùng) ");
+                    }
+
+                    break;
+                case 2:
+                    System.out.print("Nhập ID sản phẩm muốn xóa: ");
+                    String id_delete =sc.nextLine();
+                    boolean isDelete=productController.deleteProduct(id_delete);
+                    if (isDelete){
+                        System.out.println("\nXóa thành công!");
+                    }else {
+                        System.out.println("\nXóa thất bại,vui lòng thử lại!(ID không có trong danh sách,ID để trống)");
+                    }
+                break;
+                case 3:
+                    System.out.print("Nhập ID muốn cập nhật: ");
+                    String id_update =sc.nextLine();
+                    System.out.print("Nhập ID mới: ");
+                    String id_new =sc.nextLine();
+                    System.out.print("Nhập tên sản phẩm mới: ");
+                    String name_update =sc.nextLine();
+                    System.out.print("Nhập giá mới: ");
+                    double price_update =Double.parseDouble(sc.nextLine());
+                    boolean isUpdate=productController.updateProduct(id_update, new Product(price_update,id_new,name_update));
+                    if (isUpdate) {
+                        System.out.println("\n Cập nhật thành công!");
+                    }
+                    else {
+                        System.out.println("\n Cập nhật thất bại!");
+                    }
+
+                    break;
+                case 4:
+                    List<Product> result= productController.getProductList();
+                    if (result.isEmpty()){
+                        System.out.println("Danh sách sản phẩm rỗng ");
+                        break;
+                    }
+                    System.out.println("+----+----------------------+------------+");
+                    System.out.printf("| %-2s | %-20s | %-10s |\n",
+                            "ID", "Tên sản phẩm", "Giá");
+                    System.out.println("+----+----------------------+------------+");
+
+                    for (Product p:result){
+                        System.out.println(p);
+                    }
+                    System.out.println("+----+----------------------+------------+");
+                    break;
+                case 5:
+                    productController.searchProduct();
+                    break;
+                case 6:
+                    productController.sortProduct();
+                    break;
+                case 7:return;
+                default:System.out.println("Invalid choice,try again!");
+            }
+        }
+    }
+
+}
