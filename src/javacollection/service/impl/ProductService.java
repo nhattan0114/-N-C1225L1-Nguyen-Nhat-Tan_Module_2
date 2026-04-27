@@ -13,9 +13,17 @@ public class ProductService implements IProductService {
 
     @Override
     public boolean addProduct(Product product) {
-        ArrayList<Product> products = productRepository.getProductList();
-
         if(product==null){
+            return false;
+        }
+        ArrayList<Product> products = productRepository.getProductList();
+        if(product.getProductName()==null||product.getProductName().trim().isEmpty()){
+            return false;
+        }
+        if(product.getProductID()==null||product.getProductID().trim().isEmpty()){
+            return false;
+        }
+        if(product.getPrice()<=0){
             return false;
         }
         for(Product p : products){
@@ -36,63 +44,46 @@ public class ProductService implements IProductService {
 
     @Override
     public boolean deleteProduct(String productID) {
-        ArrayList<Product> products = productRepository.getProductList();
 
         if (productID == null || productID.trim().isEmpty()) {
             return false;
         }
 
-        for (Product p : products){
-            if(p.getProductID().equalsIgnoreCase(productID)){
-                return productRepository.deleteProduct(productID);
-
-            }
-        }
-        return false;
+        return productRepository.deleteProduct(productID);
     }
 
     @Override
     public boolean updateProduct(String id,Product product) {
-        ArrayList<Product> products = productRepository.getProductList();
+
 
         if (id == null || id.trim().isEmpty() || product == null) {
             return false;
         }
-        for(Product p : products){
-            if(id.equalsIgnoreCase(p.getProductID())){
-                return productRepository.updateProduct(id,product);
-            }
-        }
-        return false;
+        return productRepository.updateProduct(id,product);
     }
 
     @Override
     public List<Product> searchProduct(String name) {
-        ArrayList<Product> products = productRepository.getProductList();
+
         if(name==null|| name.trim().isEmpty()){
-            return null;
+            return new ArrayList<>();
         }
-        for (Product p : products){
-            if(p.getProductName().toLowerCase().contains(name.toLowerCase())){
-                return productRepository.searchProduct(name);
-            }
-        }
-        return null;
+        return productRepository.searchProduct(name);
     }
 
     @Override
-    public void sortProductPriceAsc() {
-        productRepository.sortPriceAsc();
+    public boolean sortProductPriceAsc() {
+        return productRepository.sortPriceAsc();
     }
 
     @Override
-    public void sortProductPriceDesc() {
-        productRepository.sortPriceDesc();
+    public boolean sortProductPriceDesc() {
+       return productRepository.sortPriceDesc();
     }
 
     @Override
-    public  void sortProductID(){
-
+    public boolean sortProductID(){
+      return   productRepository.sortProductID();
     }
 
 }

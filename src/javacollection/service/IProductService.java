@@ -10,7 +10,7 @@ public interface IProductService {
     boolean deleteProduct(String productID);
     boolean updateProduct(String id,Product Product);
     List<Product> searchProduct(String name);
-    void sortProductPriceAsc();
-    void sortProductPriceDesc();
-    void sortProductID();
+    boolean sortProductPriceAsc();
+    boolean sortProductPriceDesc();
+    boolean sortProductID();
 }

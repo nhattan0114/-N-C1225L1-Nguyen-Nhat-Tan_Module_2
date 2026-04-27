@@ -34,15 +34,15 @@ public class ProductController {
     }
 
 
-    public void sortProductPriceAsc(){
-        productService.sortProductPriceAsc();
+    public boolean sortProductPriceAsc(){
+       return productService.sortProductPriceAsc();
 
     }
-    public void sortProductPriceDesc(){
-        productService.sortProductPriceDesc();
+    public boolean sortProductPriceDesc(){
+        return productService.sortProductPriceDesc();
     }
-    public void sortProductID(){
-        productService.sortProductID();
+    public boolean sortProductID(){
+        return productService.sortProductID();
     }
 
 }

@@ -1,4 +1,4 @@
-package CleanCode.compare;
+package javacollection.compare;
 
 import javacollection.entity.Product;
 

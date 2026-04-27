@@ -29,8 +29,7 @@ public class ProductView {
                     String name =sc.nextLine();
                     System.out.print("Nhập ID sản phẩm: ");
                     String id =sc.nextLine();
-                    System.out.print("Nhập giá sản phẩm: ");
-                    double price =Double.parseDouble(sc.nextLine());
+                    double price =inputDouble("Nhập giá sản phẩm: ");
                     boolean isAdd=productController.addProduct(new Product(price,id,name));
                     if (isAdd){
                         System.out.println("\nThêm mới thành công!");
@@ -56,8 +55,7 @@ public class ProductView {
                     String id_new =sc.nextLine();
                     System.out.print("Nhập tên sản phẩm mới: ");
                     String name_update =sc.nextLine();
-                    System.out.print("Nhập giá mới: ");
-                    double price_update =Double.parseDouble(sc.nextLine());
+                    double price_update =inputDouble("Nhập giá mới: ");
                     boolean isUpdate=productController.updateProduct(id_update, new Product(price_update,id_new,name_update));
                     if (isUpdate) {
                         System.out.println("\n Cập nhật thành công!");
@@ -84,13 +82,22 @@ public class ProductView {
                         String option =sc.nextLine();
                         switch (option.toLowerCase()){
                             case "t":
-                                productController.sortProductPriceAsc();
-                                displayProduct(productController.getProductList());
+                                if (productController.sortProductPriceAsc()){
+                                    System.out.println("Sắp xếp thành công!");
+                                    displayProduct(productController.getProductList());
+                                }else {
+                                    System.out.println("Sắp xếp thất bại!");
+                                }
                                 isContinue=false;
                                 break;
                             case "g":
-                                productController.sortProductPriceDesc();
-                                displayProduct(productController.getProductList());
+
+                                if (productController.sortProductPriceDesc()){
+                                    System.out.println("Sắp xếp thành công!");
+                                    displayProduct(productController.getProductList());
+                                }else {
+                                    System.out.println("Sắp xếp thất bại!");
+                                }
                                 isContinue=false;
                                 break;
                             default:
@@ -99,16 +106,20 @@ public class ProductView {
                     }
                     break;
                 case 7:
-                    productController.sortProductID();
-                    displayProduct(productController.getProductList());
+                    if (productController.sortProductID()){
+                        System.out.println("Sắp xếp thành công!");
+                        displayProduct(productController.getProductList());
+                    }else {
+                        System.out.println("Sắp xếp thất bại!");
+                    }
                     break;
                 case 8:return;
-                default:System.out.println("Invalid choice,try again!");
+                default:System.out.println("Lựa chọn không hợp lệ,thử lại!");
             }
         }
     }
 
-    public static void displayProduct(List<Product> products) {
+    public  void displayProduct(List<Product> products) {
         if (products.isEmpty()){
             System.out.println("Không tồn tại");
             return;
@@ -123,4 +134,27 @@ public class ProductView {
         System.out.println("+----+----------------------+------------+");
     }
 
+    public int inputInterger(String mes){
+        while (true){
+            try {
+                System.out.print(mes);
+                return Integer.parseInt(sc.nextLine());
+            }catch (NumberFormatException e){
+                System.out.println("Vui lòng nhập lựa chọn là số!");
+            }
+        }
+    }
+
+    public double inputDouble(String mes){
+        while (true){
+            try {
+                System.out.print(mes);
+                return Double.parseDouble(sc.nextLine());
+            }catch (NumberFormatException e){
+                System.out.println("vui lòng nhập số hợp lệ!");
+            }
+
+
+        }
+    }
 }
