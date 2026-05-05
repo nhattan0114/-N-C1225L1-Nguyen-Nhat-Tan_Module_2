@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1569536-e190-42c7-9638-85434c729f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/javacollection/data/ProductData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CleanCode/data/CustomerData.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CleanCode/compare/compareProductID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javacollection/compare/compareProductID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CleanCode/compare/compareProductPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javacollection/compare/compareProductPrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javacollection/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javacollection/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javacollection/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javacollection/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javacollection/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javacollection/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javacollection/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javacollection/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javacollection/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javacollection/service/IProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javacollection/service/impl/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javacollection/service/impl/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javacollection/view/ProductView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javacollection/view/ProductView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CleanCode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CleanCode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CleanCode/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CleanCode/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CleanCode/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CleanCode/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CleanCode/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CleanCode/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CleanCode/service/ICustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CleanCode/service/ICustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CleanCode/service/impl/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CleanCode/service/impl/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CleanCode/view/CustomerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CleanCode/view/CustomerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sortingalgorithm/InsertionSortVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingalgorithm/InsertionSortVisualizer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="71" />
+    <option name="cachedIndexableFilesCount" value="72" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -108,7 +107,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.InsertionSortVisualizer">
     <configuration name="BinarySearchRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="searchalgorithm.BinarySearchRecursion" />
       <module name="Module_2" />
@@ -135,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckThePalindromeStringUsingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA_Stack_Queue.CheckThePalindromeStringUsingQueue" />
+    <configuration name="CleanCode.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CleanCode.Main" />
       <module name="Module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA_Stack_Queue.*" />
+          <option name="PATTERN" value="CleanCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss12_map_tree.Demo" />
+    <configuration name="InsertionSortVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sortingalgorithm.InsertionSortVisualizer" />
+      <module name="Module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss12_map_tree.*" />
+          <option name="PATTERN" value="sortingalgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertionSortVisualizer" />
+        <item itemvalue="Application.CleanCode.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.BinarySearchRecursion" />
         <item itemvalue="Application.CalculateTheComplexityOfTheAlgorithm" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.CheckThePalindromeStringUsingQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +222,9 @@
       <workItem from="1777121831568" duration="2426000" />
       <workItem from="1777124289455" duration="797000" />
       <workItem from="1777263584107" duration="3101000" />
-      <workItem from="1777277237555" duration="5436000" />
+      <workItem from="1777277237555" duration="5945000" />
+      <workItem from="1777358417860" duration="8666000" />
+      <workItem from="1777970876803" duration="280000" />
     </task>
     <servers />
   </component>

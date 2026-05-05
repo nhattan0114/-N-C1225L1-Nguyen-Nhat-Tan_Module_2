@@ -1,6 +1,6 @@
 package CleanCode.entity;
 
-import com.sun.javafx.binding.StringFormatter;
+
 
 import java.time.LocalDate;
 
@@ -16,6 +16,11 @@ public class Customer extends Person{
         this.id = id;
     }
 
+    public Customer(String id, String name, LocalDate dob, String address) {
+        super(address, dob, name);
+        this.id = id;
+    }
+
     public String getId() {
         return id;
     }
@@ -26,6 +31,6 @@ public class Customer extends Person{
 
     @Override
     public String toString() {
-        return "Customer's name: "+super.getName()+" , "+"ID: "+ this.getId()+" , DOB: "+super.getDob()+" , ADD: "+super.getAddress();
+        return String.format("| %-5s | %-25s | %-10s | %-10s |", this.getId(),this.getName(), this.getDob(), this.getAddress());
     }
 }

@@ -11,5 +11,5 @@ public interface ICustomerService {
     boolean deleteCustomer(String target);
 
     ArrayList<Customer> findCustomerByName(String name);
-    void addCustomer(Customer customer);
+    boolean addCustomer(Customer customer);
 }

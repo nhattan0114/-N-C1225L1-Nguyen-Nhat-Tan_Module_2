@@ -16,8 +16,8 @@ public class CustomerController {
        return customerService.deleteCustomer(target);
     }
 
-    public void addCustomer(Customer customer){
-        customerService.addCustomer(customer);
+    public boolean addCustomer(Customer customer){
+        return customerService.addCustomer(customer);
     }
 
     public ArrayList<Customer> findCustomerByName(String name){
