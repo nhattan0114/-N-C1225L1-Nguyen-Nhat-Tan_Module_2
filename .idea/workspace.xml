@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1569536-e190-42c7-9638-85434c729f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CleanCode/data/CustomerData.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CleanCode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CleanCode/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CleanCode/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CleanCode/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CleanCode/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CleanCode/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CleanCode/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CleanCode/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CleanCode/service/ICustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CleanCode/service/ICustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CleanCode/service/impl/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CleanCode/service/impl/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CleanCode/view/CustomerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CleanCode/view/CustomerView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sortingalgorithm/InsertionSortVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingalgorithm/InsertionSortVisualizer.java" afterDir="false" />
-    </list>
+    <list default="true" id="b1569536-e190-42c7-9638-85434c729f54" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,77 +41,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BinarySearchRecursion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalculateTheComplexityOfTheAlgorithm.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CheckThePalindromeStringUsingQueue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CleanCode.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConvertDecimalToBinary.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountWord.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DemSoLanXuatHien.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GopMang.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HienThi20SoNGuyenToDauTien.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HienThiCacSoNguyenToNhoHon100.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HienThiHinh.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HienThiLoiChao.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Inheritance.TestCircle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainFan.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainResize.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Reverse_Stack.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestCircle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestPoint.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestStudent.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThemPhanTuVaoMang.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TimMaxTrongMang2Chieu.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TimMinTrongMang.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TinhTongDgCheoChinh.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TongCacSoOMotCotXacDinh.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UngDungChuyenDoiTIenTe.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UngDungDocSoThanhChu.executor&quot;: &quot;Run&quot;,
-    &quot;Application.XoaPhanTuKhoiMang.executor&quot;: &quot;Run&quot;,
-    &quot;Application.myListTest.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/CodeGym/Module_2/Module_2/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMConfigurable&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BinarySearchRecursion.executor": "Run",
+    "Application.CalculateTheComplexityOfTheAlgorithm.executor": "Run",
+    "Application.CheckThePalindromeStringUsingQueue.executor": "Run",
+    "Application.CleanCode.Main.executor": "Run",
+    "Application.ConvertDecimalToBinary.executor": "Run",
+    "Application.CountWord.executor": "Run",
+    "Application.DemSoLanXuatHien.executor": "Run",
+    "Application.GopMang.executor": "Run",
+    "Application.HienThi20SoNGuyenToDauTien.executor": "Run",
+    "Application.HienThiCacSoNguyenToNhoHon100.executor": "Run",
+    "Application.HienThiHinh.executor": "Run",
+    "Application.HienThiLoiChao.executor": "Run",
+    "Application.Inheritance.TestCircle.executor": "Run",
+    "Application.InsertionSortVisualizer.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainFan.executor": "Run",
+    "Application.MainResize.executor": "Run",
+    "Application.Reverse_Stack.executor": "Run",
+    "Application.TestCircle.executor": "Run",
+    "Application.TestPoint.executor": "Run",
+    "Application.TestStudent.executor": "Run",
+    "Application.ThemPhanTuVaoMang.executor": "Run",
+    "Application.TimMaxTrongMang2Chieu.executor": "Run",
+    "Application.TimMinTrongMang.executor": "Run",
+    "Application.TinhTongDgCheoChinh.executor": "Run",
+    "Application.TongCacSoOMotCotXacDinh.executor": "Run",
+    "Application.UngDungChuyenDoiTIenTe.executor": "Run",
+    "Application.UngDungDocSoThanhChu.executor": "Run",
+    "Application.XoaPhanTuKhoiMang.executor": "Run",
+    "Application.myListTest.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/CodeGym/Module_2/Module_2/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.InsertionSortVisualizer">
+}]]></component>
+  <component name="RunManager" selected="Application.insertionsortlist">
     <configuration name="BinarySearchRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="searchalgorithm.BinarySearchRecursion" />
-      <module name="Module_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="searchalgorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculateTheComplexityOfTheAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searchalgorithm.CalculateTheComplexityOfTheAlgorithm" />
       <module name="Module_2" />
       <extension name="coverage">
         <pattern>
@@ -173,13 +150,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="insertionsortlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sortingalgorithm.insertionsortlist" />
+      <module name="Module_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sortingalgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.insertionsortlist" />
         <item itemvalue="Application.InsertionSortVisualizer" />
         <item itemvalue="Application.CleanCode.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.BinarySearchRecursion" />
-        <item itemvalue="Application.CalculateTheComplexityOfTheAlgorithm" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +214,7 @@
       <workItem from="1777263584107" duration="3101000" />
       <workItem from="1777277237555" duration="5945000" />
       <workItem from="1777358417860" duration="8666000" />
-      <workItem from="1777970876803" duration="280000" />
+      <workItem from="1777970876803" duration="645000" />
     </task>
     <servers />
   </component>
