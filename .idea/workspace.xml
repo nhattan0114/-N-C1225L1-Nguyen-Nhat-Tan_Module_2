@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1569536-e190-42c7-9638-85434c729f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exception/IllegalTriangleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/testTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iotextfile/CopyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iotextfile/source.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iotextfile/target.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +53,7 @@
     "Application.CheckThePalindromeStringUsingQueue.executor": "Run",
     "Application.CleanCode.Main.executor": "Run",
     "Application.ConvertDecimalToBinary.executor": "Run",
+    "Application.CopyFile.executor": "Run",
     "Application.CountWord.executor": "Run",
     "Application.DemSoLanXuatHien.executor": "Run",
     "Application.GopMang.executor": "Run",
@@ -78,6 +80,7 @@
     "Application.XoaPhanTuKhoiMang.executor": "Run",
     "Application.insertionsortlist.executor": "Run",
     "Application.myListTest.executor": "Run",
+    "Application.testTriangle.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -102,7 +105,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.testTriangle">
+  <component name="RunManager" selected="Application.CopyFile">
     <configuration name="CleanCode.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CleanCode.Main" />
       <module name="Module_2" />
@@ -116,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSortVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sortingalgorithm.InsertionSortVisualizer" />
+    <configuration name="CopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iotextfile.CopyFile" />
       <module name="Module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sortingalgorithm.*" />
+          <option name="PATTERN" value="iotextfile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javacollection.Main" />
+    <configuration name="InsertionSortVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sortingalgorithm.InsertionSortVisualizer" />
       <module name="Module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javacollection.*" />
+          <option name="PATTERN" value="sortingalgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CopyFile" />
         <item itemvalue="Application.testTriangle" />
         <item itemvalue="Application.insertionsortlist" />
         <item itemvalue="Application.InsertionSortVisualizer" />
         <item itemvalue="Application.CleanCode.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +222,7 @@
       <workItem from="1777263584107" duration="3101000" />
       <workItem from="1777277237555" duration="5945000" />
       <workItem from="1777358417860" duration="8666000" />
-      <workItem from="1777970876803" duration="2213000" />
+      <workItem from="1777970876803" duration="4185000" />
     </task>
     <servers />
   </component>
