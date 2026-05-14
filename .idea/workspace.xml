@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1569536-e190-42c7-9638-85434c729f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thithuchanhmodule2/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thithuchanhmodule2/data/medical_records.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thithuchanhmodule2/entity/BenhAn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thithuchanhmodule2/entity/BenhAnThuong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thithuchanhmodule2/entity/BenhAnVip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thithuchanhmodule2/exception/DuplicateMedicalRecordException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thithuchanhmodule2/view/view.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thithuchanhmodule2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thithuchanhmodule2/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="b1569536-e190-42c7-9638-85434c729f54" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -242,7 +232,7 @@
       <workItem from="1778518753308" duration="300000" />
       <workItem from="1778585448999" duration="5321000" />
       <workItem from="1778758395335" duration="630000" />
-      <workItem from="1778759098285" duration="6627000" />
+      <workItem from="1778759098285" duration="7003000" />
     </task>
     <servers />
   </component>
@@ -260,6 +250,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NumberFormatException" package="java.lang" />
           <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="3" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

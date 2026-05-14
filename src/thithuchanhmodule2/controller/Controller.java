@@ -25,6 +25,7 @@ public class Controller {
                 }
                 data=line.split(",");
                 benhAn=new BenhAn(data[0],data[1],data[2], LocalDate.parse(data[3],DATE_FORMATTER),LocalDate.parse(data[4],DATE_FORMATTER),Integer.parseInt(data[5]),data[6]);
+                benhAnList.add(benhAn);
             }
         }catch (FileNotFoundException e){
             System.out.println("Không tìm thấy File");
@@ -36,6 +37,17 @@ public class Controller {
 
 
     public String converterBenhAnToString(BenhAn benhAn){
+        if (benhAn == null) {
+            throw new IllegalArgumentException("Bệnh án không được để trống!");
+        }
+
+        if (benhAn.getNgayNhapVien() == null) {
+            throw new IllegalArgumentException("Ngày nhập viện không được để trống!");
+        }
+
+        if (benhAn.getNgayXuatVien() == null) {
+            throw new IllegalArgumentException("Ngày xuất viện không được để trống!");
+        }
         String ngayNhapVien=benhAn.getNgayNhapVien().format(DATE_FORMATTER);
         String ngayXuatVien=benhAn.getNgayXuatVien().format(DATE_FORMATTER);
         return benhAn.getLiDoNhapVien()+","+benhAn.getMaBenhAn()+","+benhAn.getMaBenhNhan()+","+ngayNhapVien+","+ngayXuatVien+","+benhAn.getSoThuTu()+","+benhAn.getTenBenhNhan();
