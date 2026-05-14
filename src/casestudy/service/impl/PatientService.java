@@ -2,13 +2,14 @@ package casestudy.service.impl;
 
 import casestudy.entity.Patient;
 import casestudy.repository.PatientRepository;
+import casestudy.service.IPatientService;
 import casestudy.service.IService;
 
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class PatientService implements IService<Patient> {
+public class PatientService implements IPatientService {
 
     PatientRepository patientRepository = new PatientRepository();
 
@@ -59,15 +60,15 @@ public class PatientService implements IService<Patient> {
     }
 
     @Override
-    public List<Patient> searchByID(String id) {
+    public Patient searchByID(String id) {
         if (id == null || id.trim().isEmpty()){
-            return new ArrayList<>();
+            return null;
         }
         return patientRepository.searchByID(id);
     }
 
     @Override
-    public List<Patient> searchByHospitalDepartment(String disease) {
+    public List<Patient>searchByDisease(String disease) {
         if (disease==null||disease.trim().isEmpty()){
             return new ArrayList<>();
         }
@@ -81,12 +82,14 @@ public class PatientService implements IService<Patient> {
     }
 
     @Override
-    public boolean sortByID() {
-        return patientRepository.sortByID();
+    public boolean sortByPatientID() {
+         return patientRepository.sortByID();
     }
 
     @Override
-    public boolean sortByHospitalDepartment() {
+    public boolean sortByDisease() {
         return patientRepository.sortByDisease();
     }
+
+
 }

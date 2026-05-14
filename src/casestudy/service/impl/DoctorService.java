@@ -2,12 +2,11 @@ package casestudy.service.impl;
 
 import casestudy.entity.Doctor;
 import casestudy.repository.DoctorRepository;
-import casestudy.service.IService;
-
+import casestudy.service.IDoctorService;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DoctorService implements IService<Doctor> {
+public class DoctorService implements IDoctorService {
 
     DoctorRepository doctorRepository= new DoctorRepository();
 
@@ -59,9 +58,9 @@ public class DoctorService implements IService<Doctor> {
     }
 
     @Override
-    public List<Doctor> searchByID(String id) {
+    public Doctor searchByID(String id) {
         if(id==null||id.trim().isEmpty()){
-            return new ArrayList<>();
+            return null;
         }
         return doctorRepository.searchByID(id);
     }
@@ -80,7 +79,7 @@ public class DoctorService implements IService<Doctor> {
     }
 
     @Override
-    public boolean sortByID() {
+    public boolean sortByDoctorID() {
         return doctorRepository.sortByID();
     }
 

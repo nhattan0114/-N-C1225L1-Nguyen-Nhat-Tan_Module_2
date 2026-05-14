@@ -5,27 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1569536-e190-42c7-9638-85434c729f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/casestudy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy/compare/CompareByName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy/compare/doctorcompare/CompareByDoctorID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy/compare/doctorcompare/CompareDoctorspecialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy/compare/patientcompare/CompareDisease.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy/compare/patientcompare/ComparePatientID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy/controller/DoctorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy/controller/PatientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy/data/DoctorData.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy/data/Patient.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy/entity/Doctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy/entity/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy/entity/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy/repository/DoctorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy/repository/PatientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy/service/IService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy/service/impl/DoctorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy/service/impl/PatientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy/view/DoctorView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy/view/PatientView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casestudy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casestudy/controller/DoctorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy/controller/DoctorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casestudy/controller/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy/controller/PatientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casestudy/data/DoctorData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy/data/DoctorData.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casestudy/data/Patient.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy/data/Patient.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casestudy/repository/DoctorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy/repository/DoctorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casestudy/repository/PatientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy/repository/PatientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casestudy/service/IDoctorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy/service/IDoctorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casestudy/service/IPatientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy/service/IPatientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casestudy/service/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy/service/IService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casestudy/service/impl/DoctorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy/service/impl/DoctorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casestudy/service/impl/PatientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy/service/impl/PatientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casestudy/view/DoctorView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy/view/DoctorView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casestudy/view/PatientView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy/view/PatientView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,15 +27,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="102" />
+    <option name="cachedIndexableFilesCount" value="104" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -248,6 +242,9 @@
       <workItem from="1778309098361" duration="10965000" />
       <workItem from="1778326919410" duration="2818000" />
       <workItem from="1778331098844" duration="524000" />
+      <workItem from="1778515216952" duration="3349000" />
+      <workItem from="1778518753308" duration="300000" />
+      <workItem from="1778585448999" duration="5321000" />
     </task>
     <servers />
   </component>

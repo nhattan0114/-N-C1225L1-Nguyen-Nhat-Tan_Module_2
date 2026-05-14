@@ -10,7 +10,7 @@ public class Main {
         DoctorView doctorView = new DoctorView();
         int choice;
         while (true){
-            System.out.println("==========Xin chào==========");
+            System.out.println("\n==========Xin chào==========");
             System.out.println("======Quản lí bệnh viện======");
             System.out.println("1.Quản lí bác sĩ.");
             System.out.println("2.Quản lí bệnh nhân.");

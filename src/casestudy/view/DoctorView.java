@@ -19,7 +19,7 @@ public class DoctorView {
     public void run(){
         int choice;
         while (true){
-            System.out.println("=========Quản lí bác sĩ=========");
+            System.out.println("\n=========Quản lí bác sĩ=========");
             System.out.println("1.Hiện thị danh sách bác sĩ.");
             System.out.println("2.Thêm bác sĩ.");
             System.out.println("3.Xóa bác sĩ.");
@@ -122,8 +122,12 @@ public class DoctorView {
             case 1:
                 System.out.print("Nhập ID muốn tìm: ");
                 String id=sc.nextLine();
-                List<Doctor> result=doctorController.searchByID(id);
-                displayDoctor(result);
+                Doctor result=doctorController.searchByID(id);
+                if (result!=null){
+                    System.out.println(result);
+                }else {
+                    System.out.println("Không tìm thấy bác sĩ");
+                }
                 break;
             case 2:
                 System.out.print("Nhập tên muốn tìm: ");
@@ -157,13 +161,38 @@ public class DoctorView {
 
     public void deleteDoctor() {
         System.out.print("Nhập ID bác sĩ muốn xóa: ");
-        String deleteID=sc.nextLine();
-        if (doctorController.delete(deleteID)){
-            System.out.println("===Xoá thành công!===");
-        }else {
-            System.out.println("===Xóa thất bại!===");
+        String deleteID=sc.nextLine().trim();
+        if (deleteID.isEmpty()){
+            System.out.println("ID không được để trống!");
+            return;
         }
+        Doctor doctor=doctorController.searchByID(deleteID);
+        if(doctor==null){
+            System.out.println("Không có  ID bác sĩ tương ứng trong danh sách");
+        }else {
+            if (confirmDelete(deleteID,doctor)){
+                doctorController.delete(deleteID);
+                System.out.println("===Xoá thành công!===");
+            }else {
+                System.out.println("===Đã hủy thao tác xóa===");
+            }
+        }
+    }
 
+    public boolean confirmDelete(String id,Doctor doctor ){
+        System.out.println("Thông tin bác sĩ: ");
+        System.out.println(doctor);
+        String confirm;
+        while(true){
+            System.out.print("Xác nhận xóa bác sĩ có id "+id+" (y/n): ");
+             confirm=sc.nextLine().trim();
+            if (confirm.equalsIgnoreCase("Y")){
+                return true;
+            }else if (confirm.equalsIgnoreCase("N")){
+                return false;
+            }
+            System.out.println("===Vui lòng chỉ nhập y hoặc n!===");
+        }
     }
 
     public void addDoctor() {

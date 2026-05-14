@@ -28,7 +28,7 @@ public class DoctorController {
         return doctorService.searchByName(name);
     }
 
-    public List<Doctor> searchByID(String id){
+    public Doctor searchByID(String id){
         return doctorService.searchByID(id);
     }
 
@@ -41,7 +41,7 @@ public class DoctorController {
     }
 
     public boolean sortByID(){
-        return doctorService.sortByID();
+        return doctorService.sortByDoctorID();
     }
 
     public boolean sortByHospitalDepartment(){

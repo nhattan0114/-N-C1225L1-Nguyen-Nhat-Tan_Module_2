@@ -30,12 +30,12 @@ public class PatientController {
         return patientService.searchByName(name);
     }
 
-    public List<Patient> searchByID(String id){
+    public Patient searchByID(String id){
         return patientService.searchByID(id);
     }
 
-    public List<Patient> searchByHospitalDepartment(String department){
-        return patientService.searchByHospitalDepartment(department);
+    public List<Patient> searchByDisease(String disease){
+        return patientService.searchByDisease(disease);
     }
 
     public boolean sortByName(){
@@ -43,10 +43,10 @@ public class PatientController {
     }
 
     public boolean sortByID(){
-        return patientService.sortByID();
+        return patientService.sortByPatientID();
     }
 
-    public boolean sortByHospitalDepartment(){
-        return patientService.sortByHospitalDepartment();
+    public boolean sortByDisease(){
+        return patientService.sortByDisease();
     }
 }

@@ -82,6 +82,7 @@ public class DoctorRepository {
         ArrayList<Doctor> doctorList = getDoctorList();
         for(Doctor d : doctorList){
             if(d.getDoctorID().toLowerCase().equals(id)){
+                d.setDoctorID(doctor.getDoctorID());
                 d.setName(doctor.getName());
                 d.setDob(doctor.getDob());
                 d.setAddress(doctor.getAddress());
@@ -92,15 +93,14 @@ public class DoctorRepository {
         return saveDoctorList(doctorList);
     }
 
-    public List<Doctor> searchByID(String id){
+    public Doctor searchByID(String id){
         List<Doctor> doctorList = getDoctorList();
-        List<Doctor> result = new ArrayList<>();
         for(Doctor d : doctorList){
             if (d.getDoctorID().toLowerCase().equals(id)){
-                result.add(d);
+                return d;
             }
         }
-        return result;
+        return null;
     }
 
     public List<Doctor> searchByName(String name){

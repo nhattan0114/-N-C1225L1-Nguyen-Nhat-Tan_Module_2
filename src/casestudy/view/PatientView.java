@@ -18,7 +18,7 @@ public class PatientView  {
     public void run(){
         int choice;
         while (true){
-            System.out.println("=========Quản lí bệnh nhân=========");
+            System.out.println("\n=========Quản lí bệnh nhân=========");
             System.out.println("1.Hiện thị danh sách bệnh nhân.");
             System.out.println("2.Thêm bệnh nhân.");
             System.out.println("3.Xóa bệnh nhân.");
@@ -78,7 +78,7 @@ public class PatientView  {
     public void sortPatient() {
         System.out.println("1.Sắp xếp theo ID.");
         System.out.println("2.Sắp xếp theo tên.");
-        System.out.println("3.Sắp xếp theo khoa.");
+        System.out.println("3.Sắp xếp theo bệnh.");
         int choice =inputInterger("Lựa chọn");
         switch (choice){
             case 1:
@@ -98,7 +98,7 @@ public class PatientView  {
                 }
                 break;
             case 3:
-                if (patientController.sortByHospitalDepartment()){
+                if (patientController.sortByDisease()){
                     System.out.println("===Sắp xếp thành công!===");
                     displayDoctor(patientController.getList());
                 }else {
@@ -121,8 +121,12 @@ public class PatientView  {
             case 1:
                 System.out.print("Nhập ID muốn tìm: ");
                 String id=sc.nextLine();
-                List<Patient> result=patientController.searchByID(id);
-                displayDoctor(result);
+                Patient result=patientController.searchByID(id);
+                if(result!=null){
+                    System.out.println(result);
+                }else {
+                    System.out.println("Không tìm thấy bệnh nhân");
+                }
                 break;
             case 2:
                 System.out.print("Nhập tên muốn tìm: ");
@@ -131,9 +135,9 @@ public class PatientView  {
                 displayDoctor(result2);
                 break;
             case 3:
-                System.out.print("Nhập khoa muốn tìm: ");
-                String department=sc.nextLine();
-                List<Patient> result3=patientController.searchByHospitalDepartment(department);
+                System.out.print("Nhập tên bệnh muốn tìm: ");
+                String disease=sc.nextLine();
+                List<Patient> result3=patientController.searchByDisease(disease);
                 displayDoctor(result3);
                 break;
             default:
@@ -156,13 +160,38 @@ public class PatientView  {
 
     public void deletePatient() {
         System.out.print("Nhập ID bệnh nhân muốn xóa: ");
-        String deleteID=sc.nextLine();
-        if (patientController.delete(deleteID)){
-            System.out.println("===Xoá thành công!===");
-        }else {
-            System.out.println("===Xóa thất bại!===");
+        String deleteID=sc.nextLine().trim();
+        if (deleteID.isEmpty()){
+            System.out.println("ID không được để trống!");
+            return;
         }
+        Patient patient=patientController.searchByID(deleteID);
+        if(patient==null){
+            System.out.println("Không có  ID bệnh nhân tương ứng trong danh sách");
+        }else {
+            if (confirmDelete(deleteID,patient)){
+                patientController.delete(deleteID);
+                System.out.println("===Xoá thành công!===");
+            }else {
+                System.out.println("===Đã hủy thao tác xóa===");
+            }
+        }
+    }
 
+    public boolean confirmDelete(String id,Patient patient ){
+        System.out.println("Thông tin bệnh nhân: ");
+        System.out.println(patient);
+        String confirm;
+        while(true){
+            System.out.print("Xác nhận xóa bệnh nhn có id "+id+" (y/n): ");
+            confirm=sc.nextLine().trim();
+            if (confirm.equalsIgnoreCase("Y")){
+                return true;
+            }else if (confirm.equalsIgnoreCase("N")){
+                return false;
+            }
+            System.out.println("===Vui lòng chỉ nhập y hoặc n!===");
+        }
     }
 
     public void addPatient() {

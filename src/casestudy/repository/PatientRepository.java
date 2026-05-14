@@ -95,15 +95,14 @@ public class PatientRepository {
         return saveDoctorList(patientList);
     }
 
-    public List<Patient> searchByID(String id){
+    public Patient searchByID(String id){
         List<Patient> patientList = getPatientList();
-        List<Patient> result = new ArrayList<>();
         for(Patient p : patientList){
             if (p.getPatientID().toLowerCase().equals(id)){
-                result.add(p);
+                return p;
             }
         }
-        return result;
+        return null;
     }
 
     public List<Patient> searchByName(String name){
